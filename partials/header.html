@@ -1,0 +1,36 @@
+<div class="bg-white border-bottom shadow-sm fixed-top">
+  <div class="container d-flex align-items-center justify-content-between py-2">
+    <!-- Hamburger Menü -->
+    <button class="btn p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+      <i class="bi bi-list" style="font-size: 1.8rem;"></i>
+    </button>
+
+    <!-- Logo -->
+    <a href="index.html" class="text-decoration-none fw-bold text-dark fs-5">KIRAT HUKUK</a>
+
+    <!-- Sağ: Tema + Dil -->
+    <div class="d-flex align-items-center gap-3">
+      <button id="themeToggle" class="btn btn-sm btn-outline-secondary" title="Tema değiştir">
+        <i class="bi bi-sun"></i>
+      </button>
+      <a id="langSwitcher" href="?lang=en" class="text-decoration-none fw-medium">EN</a>
+    </div>
+  </div>
+</div>
+
+<!-- Offcanvas Menü -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="mobileMenuLabel">Menü</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
+  </div>
+  <div class="offcanvas-body">
+    <nav class="nav flex-column" id="mainMenu">
+      <a class="nav-link" href="index.html" data-menu-key="home">Anasayfa</a>
+      <a class="nav-link" href="pages/about.html" data-menu-key="about">Hakkımızda</a>
+      <a class="nav-link" href="pages/faaliyet-alanlari.html" data-menu-key="services">Faaliyetler</a>
+      <a class="nav-link" href="pages/blog.html" data-menu-key="blog">Blog</a>
+      <a class="nav-link" href="pages/contact.html" data-menu-key="contact">İletişim</a>
+    </nav>
+  </div>
+</div>

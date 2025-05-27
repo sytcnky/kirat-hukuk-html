@@ -1,0 +1,4 @@
+#hero {
+    min-height: calc(100vh - 70px); /* header yüksekliğini düş */
+    background-color: beige;
+}
